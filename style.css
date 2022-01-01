@@ -1,0 +1,75 @@
+.glass-panel {
+    color: #fff;
+    margin: 40px auto;
+    background-color: rgb(116, 0, 249);
+    border: 1px solid rgb(255, 87, 87);
+    width: 100%;
+    border-radius: 15px;
+    padding: 32px;
+    backdrop-filter: blur(10px);
+}
+
+.glass-button {
+    display: inline-block;
+    padding: 24px 32px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(245, 136, 189, 0.747);
+    border: 1px solid rgba(33, 6, 6, 0.1);
+    backdrop-filter: blur(30px);
+    color: black;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.glass-button:hover {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+
+/* Extra styles for demo */
+
+
+/* Article:  https://superdevresources.com/glassmorphism-ui-css/ */
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.glass-panel {
+    max-width: 600px;
+}
+
+.glass-button {
+    margin: 15px;
+    margin-top: 40px;
+}
+
+h1,
+h1 a {
+    min-height: 120px;
+    width: 90%;
+    max-width: 700px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 60px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+p {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 32px;
+    color: rgba(255, 255, 255, 0.6);
+}
